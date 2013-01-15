@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"coffee-script": "1.4.x",
-		"js2coffee": "0.1.x"
+		"js2coffee": "0.2.x"
 	},
 	"devDependencies": {
 		"joe": "1.0.x"
