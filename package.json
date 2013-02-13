@@ -42,7 +42,8 @@
 		"lib": "./out/lib"
 	},
 	"scripts": {
-		"test": "node ./out/test/everything.test.js --joe-reporter=list"
+		"test": "node ./out/test/everything.test.js --joe-reporter=list",
+		"postinstall": "./node_modules/.bin/coffee -o out/ -c src/"
 	},
 	"bin": {
 		"cson2json": "./bin/cson2json",
