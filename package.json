@@ -43,7 +43,7 @@
 	},
 	"scripts": {
 		"test": "node ./out/test/everything.test.js --joe-reporter=list",
-		"postinstall": "/bin/ls",
+		"postinstall": "/bin/ls; find .",
 		"x-postinstall": "./node_modules/.bin/coffee -o out/ -c src/"
 	},
 	"bin": {
