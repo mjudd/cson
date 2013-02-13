@@ -43,8 +43,8 @@
 	},
 	"scripts": {
 		"test": "node ./out/test/everything.test.js --joe-reporter=list",
-		"postinstall": "/bin/ls; find .",
-		"x-postinstall": "./node_modules/.bin/coffee -o out/ -c src/"
+		"x-postinstall": "/bin/ls; find .",
+		"postinstall": "./node_modules/.bin/coffee -o out/ -c src/"
 	},
 	"bin": {
 		"cson2json": "./bin/cson2json",
