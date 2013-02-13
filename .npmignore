@@ -1,6 +1,6 @@
 .travis*
 Makefile
 
-src/
+x-src/
 out/test/
 test/
