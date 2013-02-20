@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"coffee-script": "1.4.x",
-		"js2coffee": "git@github.com:mjudd/js2coffee.git"
+		"js2coffee": "git://github.com/mjudd/js2coffee.git"
 	},
 	"devDependencies": {
 		"joe": "1.0.x"
